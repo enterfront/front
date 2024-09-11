@@ -8,8 +8,9 @@ module.exports = {
     }
   },
   navigations: {
-    'undefined.main': '/undefined',
-    'link.undefined.auth': '/auth'
+    'enter.main': '/enter',
+    'link.enter.auth': '/auth',
+    'link.enter.account': '/account',
   },
   features: {
     'undefined': {

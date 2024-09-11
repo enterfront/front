@@ -15,5 +15,6 @@
         "build": "npm run clean && ijl-cli build --dev",
         "build:prod": "npm run clean && ijl-cli build",
         "clean": "rimraf dist"
-    }
+    },
+    "name": "enter"
 }
