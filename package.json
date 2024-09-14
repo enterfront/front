@@ -16,5 +16,5 @@
         "build:prod": "npm run clean && ijl-cli build",
         "clean": "rimraf dist"
     },
-    "name": "enter"
+    "name": "enterfront"
 }

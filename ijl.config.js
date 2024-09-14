@@ -8,9 +8,9 @@ module.exports = {
     }
   },
   navigations: {
-    'enter.main': '/enter',
-    'link.enter.auth': '/auth',
-    'link.enter.account': '/account',
+    'enterfront.main': '/enterfront',
+    'link.enterfront.auth': '/auth',
+    'link.enterfront.account': '/account',
   },
   features: {
     'undefined': {
