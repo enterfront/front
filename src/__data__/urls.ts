@@ -1,16 +1,24 @@
-import { getNavigations, getNavigationsValue } from '@ijl/cli';
+import { getNavigations, getNavigationsValue } from '@brojs/cli';
 import pkg from '../../package.json';
 
 const baseUrl = getNavigationsValue(`${(pkg as any).name}.main`);
 const navs = getNavigations();
-const makeUrl = url => baseUrl + url;
 
 export const URLs = {
-    baseUrl,
+    baseUrl, // init
+    home: {
+        url: navs[`${(pkg as any).name}.home`],
+    },
+    chat: {
+        url: navs[`${(pkg as any).name}.chat`],
+    },
     auth: {
-        url: makeUrl(navs[`link.${(pkg as any).name}.auth`]),
+        url: navs[`${(pkg as any).name}.auth`], // sign in
+    },
+    reg: {
+        url: navs[`${(pkg as any).name}.reg`], // sign up
     },
     account: {
-        url: makeUrl(navs[`link.${(pkg as any).name}.account`]),
-    }
+        url: navs[`${(pkg as any).name}.account`],
+    },
 };

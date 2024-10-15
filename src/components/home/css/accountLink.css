@@ -1,0 +1,38 @@
+.houseIcon {
+    transition: color 0.3s ease-in;
+}
+
+.accountLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accountLink p {
+    font-size: 1.5vw;
+    transition: color 0.3s ease-out;
+}
+
+.accountLink svg {
+    font-size: 3vw;
+    transition: fill 0.3s ease-in;
+}
+
+.accountLink:hover p {
+    color: white;
+}
+
+.accountLink:hover svg {
+    fill: orange;
+}
+
+@media only screen and (max-width: 800px) {
+    .accountLink p {
+        font-size: 1.8vh;
+    }
+
+    .accountLink svg {
+        font-size: 4vh;
+    }
+}

@@ -1,0 +1,32 @@
+.MyButton.singleNavButton {
+    display: flex;
+    align-items: center;
+
+    margin-top: 1.5vw;
+    padding: 0;
+
+    background-color: white;
+    border-color: white;
+    border-radius: 3vw;
+
+    min-width: 20vw;
+}
+
+.MyButton.singleNavButton p {
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    .MyButton.singleNavButton p {
+        font-size: 2.5vh;
+    }
+
+    .MyButton.singleNavButton {
+        min-width: 60vw;
+        border-radius: 30vh;
+
+        margin-top: 3vh;
+    }
+}
+

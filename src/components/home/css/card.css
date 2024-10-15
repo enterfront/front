@@ -1,0 +1,48 @@
+.ChatsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 3rem;
+}
+
+.ChatCard {
+    margin-bottom: 40px;
+    max-width: 30vw;
+    min-width: 20vw;
+
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+
+    border-radius: 2vw;
+
+    transition: transform 0.2s ease-in;
+}
+
+.lastMessageStyle {
+    width: 80%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 800px) {
+    .ChatCard {
+        width: 30vw;
+        max-width: 30vw;
+
+        margin-left: 4vw;
+        margin-right: 4vw;
+
+        padding-top: 0;
+    }
+
+    .ChatsList {
+        margin: 10vw;
+    }
+}
+
+.ChatCard:hover {
+    transform: translate(2px, -10px);
+}

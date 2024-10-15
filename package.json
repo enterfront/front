@@ -1,20 +1,33 @@
 {
     "dependencies": {
+        "@brojs/cli": "^1.0.0",
+        "@brojs/create": "^1.0.0",
         "@ijl/cli": "^5.1.0",
         "@types/react": "^18.3.5",
         "@types/react-dom": "^18.3.0",
+        "dotenv": "^16.4.5",
+        "emoji-mart": "^5.6.0",
         "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.2",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
+        "react-emoji-picker": "^1.0.13",
+        "react-icons": "^5.3.0",
         "react-router-dom": "^6.26.1",
-        "typescript": "^5.5.4"
+        "react-toastify": "^10.0.5",
+        "socket.io": "^4.8.0",
+        "socket.io-client": "^4.8.0",
+        "styled-components": "^6.1.13",
+        "typescript": "^5.5.4",
+        "ws": "^8.18.0"
     },
     "main": "./src/index.tsx",
     "scripts": {
-        "start": "ijl-cli server --port=8099 --with-open-browser",
-        "build": "npm run clean && ijl-cli build --dev",
-        "build:prod": "npm run clean && ijl-cli build",
+        "start": "brojs server --port=8099 --with-open-browser",
+        "build": "npm run clean && brojs build --dev",
+        "build:prod": "npm run clean && brojs build",
         "clean": "rimraf dist"
     },
-    "name": "enterfront"
+    "name": "enterfront",
+    "version": "0.5.2"
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "nickname": "Alice Johnson",
+    "password": "1234",
+    "id": "alice"
+  },
+  {
+    "nickname": "Bob Smith",
+    "password": "1234",
+    "id": "bobsm"
+  },
+  {
+    "nickname": "Charlie Brown",
+    "password": "1234",
+    "id": "charl"
+  },
+  {
+    "nickname": "David Clark",
+    "password": "1234",
+    "id": "david"
+  },
+  {
+    "nickname": "Eve Adams",
+    "password": "1234",
+    "id": "evead"
+  },
+  {
+    "nickname": "Frank Wright",
+    "password": "1234",
+    "id": "frank"
+  },
+  {
+    "nickname": "Grace Lee",
+    "password": "1234",
+    "id": "grace"
+  },
+  {
+    "nickname": "Hannah Scott",
+    "password": "1234",
+    "id": "hanna"
+  },
+  {
+    "nickname": "Ian Davis",
+    "password": "1234",
+    "id": "ianda"
+  },
+  {
+    "nickname": "Jill Thompson",
+    "password": "1234",
+    "id": "jillt"
+  }
+]

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+@import url("pages/index.css");
+@import url("components/index.css");
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+    font-size: 1.2vw;
+    font-family: "Montserrat", 'sans-serif';
+    color: black;
+    text-decoration: none;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 800px) {
+    * {
+        font-size: 1.5vh;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.metal-mania-regular {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mclaren-regular {
+    font-family: "McLaren", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montecarlo-regular {
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+

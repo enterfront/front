@@ -1,0 +1,45 @@
+.backgroundImage {
+    width: 100%;
+    height: 100vh;
+
+    background-color: darkgray;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.blurEffect {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("./../../../images/home_wp.jpg");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(10px);
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.overBlur {
+    position: relative;
+    z-index: 2;
+}
+
+.initTitlePos {
+    top: 10%;
+}
+
+.navButtons {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    top: 17%;
+}

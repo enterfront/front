@@ -1,0 +1,12 @@
+.account-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5vw;
+}
+
+.account-items img {
+    margin-bottom: 1vw;
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "id1": "alice",
+    "id2": "bobsm",
+    "messages": [
+      {
+        "data": "Hello Bob!",
+        "senderId": "alice",
+        "recipientId": "bobsm",
+        "timestamp": "09.10.2024 07:00:00"
+      },
+      {
+        "data": "Hey Alice, how are you?",
+        "senderId": "bobsm",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 07:05:00"
+      },
+      {
+        "data": "I'm good, thanks for asking.",
+        "senderId": "alice",
+        "recipientId": "bobsm",
+        "timestamp": "09.10.2024 07:10:00"
+      },
+      {
+        "data": "Glad to hear!",
+        "senderId": "bobsm",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 07:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "charl",
+    "messages": [
+      {
+        "data": "How's the project going?",
+        "senderId": "alice",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 07:20:00"
+      },
+      {
+        "data": "It's coming along, almost done!",
+        "senderId": "charl",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 07:25:00"
+      },
+      {
+        "data": "That's great to hear!",
+        "senderId": "alice",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 07:30:00"
+      },
+      {
+        "data": "Thanks for checking in.",
+        "senderId": "charl",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 07:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "david",
+    "messages": [
+      {
+        "data": "Did you get the files?",
+        "senderId": "david",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 07:40:00"
+      },
+      {
+        "data": "Yes, I did. Thank you!",
+        "senderId": "alice",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 07:45:00"
+      },
+      {
+        "data": "You're welcome.",
+        "senderId": "david",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 07:50:00"
+      },
+      {
+        "data": "Let me know if you need anything else.",
+        "senderId": "alice",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 07:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "frank",
+    "messages": [
+      {
+        "data": "Can you review this document for me?",
+        "senderId": "alice",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 08:20:00"
+      },
+      {
+        "data": "Sure, I'll take a look.",
+        "senderId": "frank",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 08:25:00"
+      },
+      {
+        "data": "Thanks, much appreciated!",
+        "senderId": "alice",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 08:30:00"
+      },
+      {
+        "data": "No problem.",
+        "senderId": "frank",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 08:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "grace",
+    "messages": [
+      {
+        "data": "Hey Grace, let's meet up for coffee!",
+        "senderId": "alice",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 08:40:00"
+      },
+      {
+        "data": "Sounds good, when are you free?",
+        "senderId": "grace",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 08:45:00"
+      },
+      {
+        "data": "How about tomorrow afternoon?",
+        "senderId": "alice",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 08:50:00"
+      },
+      {
+        "data": "Works for me!",
+        "senderId": "grace",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 08:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "hanna",
+    "messages": [
+      {
+        "data": "Hannah, do you have a moment?",
+        "senderId": "alice",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 09:00:00"
+      },
+      {
+        "data": "Sure, what's up?",
+        "senderId": "hanna",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 09:05:00"
+      },
+      {
+        "data": "Just wanted to check on the report.",
+        "senderId": "alice",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 09:10:00"
+      },
+      {
+        "data": "I'll send it soon.",
+        "senderId": "hanna",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 09:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "ianda",
+    "messages": [
+      {
+        "data": "Ian, have you completed the review?",
+        "senderId": "alice",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 09:20:00"
+      },
+      {
+        "data": "Yes, I sent my feedback.",
+        "senderId": "ianda",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 09:25:00"
+      },
+      {
+        "data": "Thanks for that.",
+        "senderId": "alice",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 09:30:00"
+      },
+      {
+        "data": "Anytime!",
+        "senderId": "ianda",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 09:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "jillt",
+    "messages": [
+      {
+        "data": "Jill, let's schedule a catch-up meeting.",
+        "senderId": "alice",
+        "recipientId": "jillt",
+        "timestamp": "09.10.2024 09:40:00"
+      },
+      {
+        "data": "Sounds good, when works for you?",
+        "senderId": "jillt",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 09:45:00"
+      },
+      {
+        "data": "Tomorrow afternoon?",
+        "senderId": "alice",
+        "recipientId": "jillt",
+        "timestamp": "09.10.2024 09:50:00"
+      },
+      {
+        "data": "That works for me!",
+        "senderId": "jillt",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 09:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "alice",
+    "id2": "evead",
+    "messages": [
+      {
+        "data": "Eve, did you send the schedule?",
+        "senderId": "alice",
+        "recipientId": "evead",
+        "timestamp": "09.10.2024 10:00:00"
+      },
+      {
+        "data": "Yes, just sent it.",
+        "senderId": "evead",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 10:05:00"
+      },
+      {
+        "data": "Thanks, much appreciated!",
+        "senderId": "alice",
+        "recipientId": "evead",
+        "timestamp": "09.10.2024 10:10:00"
+      },
+      {
+        "data": "No problem!",
+        "senderId": "evead",
+        "recipientId": "alice",
+        "timestamp": "09.10.2024 10:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "bobsm",
+    "id2": "charl",
+    "messages": [
+      {
+        "data": "How's everything going?",
+        "senderId": "bobsm",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 10:20:00"
+      },
+      {
+        "data": "Pretty good, how about you?",
+        "senderId": "charl",
+        "recipientId": "bobsm",
+        "timestamp": "09.10.2024 10:25:00"
+      },
+      {
+        "data": "Can't complain!",
+        "senderId": "bobsm",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 10:30:00"
+      },
+      {
+        "data": "Glad to hear that.",
+        "senderId": "charl",
+        "recipientId": "bobsm",
+        "timestamp": "09.10.2024 10:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "bobsm",
+    "id2": "david",
+    "messages": [
+      {
+        "data": "Can you send the report?",
+        "senderId": "bobsm",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 10:40:00"
+      },
+      {
+        "data": "I'll send it in an hour.",
+        "senderId": "david",
+        "recipientId": "bobsm",
+        "timestamp": "09.10.2024 10:45:00"
+      },
+      {
+        "data": "Perfect, thanks.",
+        "senderId": "bobsm",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 10:50:00"
+      },
+      {
+        "data": "No problem.",
+        "senderId": "david",
+        "recipientId": "bobsm",
+        "timestamp": "09.10.2024 10:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "charl",
+    "id2": "evead",
+    "messages": [
+      {
+        "data": "Hey Eve, how's it going?",
+        "senderId": "charl",
+        "recipientId": "evead",
+        "timestamp": "09.10.2024 11:00:00"
+      },
+      {
+        "data": "Good, how about you?",
+        "senderId": "evead",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 11:05:00"
+      },
+      {
+        "data": "Can't complain!",
+        "senderId": "charl",
+        "recipientId": "evead",
+        "timestamp": "09.10.2024 11:10:00"
+      },
+      {
+        "data": "Glad to hear.",
+        "senderId": "evead",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 11:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "charl",
+    "id2": "frank",
+    "messages": [
+      {
+        "data": "Do you have time to talk today?",
+        "senderId": "charl",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 11:20:00"
+      },
+      {
+        "data": "I have a meeting, but I can chat afterward.",
+        "senderId": "frank",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 11:25:00"
+      },
+      {
+        "data": "Sounds good.",
+        "senderId": "charl",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 11:30:00"
+      },
+      {
+        "data": "I'll message you after.",
+        "senderId": "frank",
+        "recipientId": "charl",
+        "timestamp": "09.10.2024 11:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "david",
+    "id2": "frank",
+    "messages": [
+      {
+        "data": "Did you review the document?",
+        "senderId": "david",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 11:40:00"
+      },
+      {
+        "data": "Yes, it's all good.",
+        "senderId": "frank",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 11:45:00"
+      },
+      {
+        "data": "Great, thanks for the quick turnaround!",
+        "senderId": "david",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 11:50:00"
+      },
+      {
+        "data": "No worries!",
+        "senderId": "frank",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 11:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "david",
+    "id2": "grace",
+    "messages": [
+      {
+        "data": "Grace, can you send the updated schedule?",
+        "senderId": "david",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 12:00:00"
+      },
+      {
+        "data": "Yes, I'll send it in a few minutes.",
+        "senderId": "grace",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 12:05:00"
+      },
+      {
+        "data": "Thanks, much appreciated!",
+        "senderId": "david",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 12:10:00"
+      },
+      {
+        "data": "You're welcome!",
+        "senderId": "grace",
+        "recipientId": "david",
+        "timestamp": "09.10.2024 12:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "frank",
+    "id2": "grace",
+    "messages": [
+      {
+        "data": "How are you today?",
+        "senderId": "frank",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 12:20:00"
+      },
+      {
+        "data": "I'm doing well, thanks for asking.",
+        "senderId": "grace",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 12:25:00"
+      },
+      {
+        "data": "Glad to hear that.",
+        "senderId": "frank",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 12:30:00"
+      },
+      {
+        "data": "How about you?",
+        "senderId": "grace",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 12:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "frank",
+    "id2": "hanna",
+    "messages": [
+      {
+        "data": "Did you attend the meeting?",
+        "senderId": "frank",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 12:40:00"
+      },
+      {
+        "data": "Yes, it was productive.",
+        "senderId": "hanna",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 12:45:00"
+      },
+      {
+        "data": "Good to hear!",
+        "senderId": "frank",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 12:50:00"
+      },
+      {
+        "data": "Indeed, lots to follow up on.",
+        "senderId": "hanna",
+        "recipientId": "frank",
+        "timestamp": "09.10.2024 12:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "grace",
+    "id2": "hanna",
+    "messages": [
+      {
+        "data": "Can we meet later today?",
+        "senderId": "grace",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 01:00:00"
+      },
+      {
+        "data": "Sure, what's a good time?",
+        "senderId": "hanna",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 01:05:00"
+      },
+      {
+        "data": "How about 3?",
+        "senderId": "grace",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 01:10:00"
+      },
+      {
+        "data": "Works for me.",
+        "senderId": "hanna",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 01:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "grace",
+    "id2": "ianda",
+    "messages": [
+      {
+        "data": "Ian, did you get the message I sent?",
+        "senderId": "grace",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 01:20:00"
+      },
+      {
+        "data": "Yes, I'll respond soon.",
+        "senderId": "ianda",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 01:25:00"
+      },
+      {
+        "data": "Thanks, appreciate it!",
+        "senderId": "grace",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 01:30:00"
+      },
+      {
+        "data": "You're welcome!",
+        "senderId": "ianda",
+        "recipientId": "grace",
+        "timestamp": "09.10.2024 01:35:00"
+      }
+    ]
+  },
+  {
+    "id1": "hanna",
+    "id2": "ianda",
+    "messages": [
+      {
+        "data": "Ian, do you have a minute?",
+        "senderId": "hanna",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 01:40:00"
+      },
+      {
+        "data": "Yes, what do you need?",
+        "senderId": "ianda",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 01:45:00"
+      },
+      {
+        "data": "Just a quick update on the project.",
+        "senderId": "hanna",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 01:50:00"
+      },
+      {
+        "data": "I'll email you the details.",
+        "senderId": "ianda",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 01:55:00"
+      }
+    ]
+  },
+  {
+    "id1": "hanna",
+    "id2": "jillt",
+    "messages": [
+      {
+        "data": "Jill, can we talk tomorrow?",
+        "senderId": "hanna",
+        "recipientId": "jillt",
+        "timestamp": "09.10.2024 02:00:00"
+      },
+      {
+        "data": "Yes, I'm free after 2.",
+        "senderId": "jillt",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 02:05:00"
+      },
+      {
+        "data": "Perfect, see you then.",
+        "senderId": "hanna",
+        "recipientId": "jillt",
+        "timestamp": "09.10.2024 02:10:00"
+      },
+      {
+        "data": "Looking forward to it.",
+        "senderId": "jillt",
+        "recipientId": "hanna",
+        "timestamp": "09.10.2024 02:15:00"
+      }
+    ]
+  },
+  {
+    "id1": "ianda",
+    "id2": "jillt",
+    "messages": [
+      {
+        "data": "Jill, I have the files you requested.",
+        "senderId": "ianda",
+        "recipientId": "jillt",
+        "timestamp": "09.10.2024 02:20:00"
+      },
+      {
+        "data": "Thanks, please send them over.",
+        "senderId": "jillt",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 02:25:00"
+      },
+      {
+        "data": "I'll send them right now.",
+        "senderId": "ianda",
+        "recipientId": "jillt",
+        "timestamp": "09.10.2024 02:30:00"
+      },
+      {
+        "data": "Great, thanks again!",
+        "senderId": "jillt",
+        "recipientId": "ianda",
+        "timestamp": "09.10.2024 02:35:00"
+      }
+    ]
+  }
+]
