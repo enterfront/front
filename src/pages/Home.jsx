@@ -27,9 +27,13 @@ const Home = () => {
     }
 
     const sortedChats = data.chats.sort((a, b) => {
-      const lastMessageA = new Date(a.lastMessageTimestamp);
-      const lastMessageB = new Date(b.lastMessageTimestamp);
-      return lastMessageB - lastMessageA;
+      const lastMessageA = a.messages[a.messages.length - 1];
+      const lastMessageB = b.messages[b.messages.length - 1];
+
+      const dateA = new Date(lastMessageA.timestamp);
+      const dateB = new Date(lastMessageB.timestamp);
+
+      return dateB - dateA;
     });
 
     setChats(sortedChats);
